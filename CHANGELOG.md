@@ -1,7 +1,7 @@
 0.9.0
 ---------------
 
- * `i-enb` middleware replaced `i-ycssjs`
+ # `i-enb` middleware replaced `i-ycssjs`
 
 Now ` .bem/enb-make.js` config applies to static proxy.
 You can disable static proxy with `--no-static-proxy` option.
@@ -128,3 +128,4 @@ BN.addDecl('hello-world', 'page', {
     }
 });
 ```
+ 
