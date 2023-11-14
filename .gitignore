@@ -1,4 +1,4 @@
-#bem-bl
+ bem-bl
 node_modules
 #blocks/i-bem/__html/
 #blocks/i-bem/__json/_async/
@@ -12,8 +12,9 @@ tests.blocks/chai/__as-promised/chai__as-promised.js
 
 .bem/tmp
 tests/*/*
-!tests/*/*.bemdecl.js
+#tests/*/*.bemdecl.js
 !pages/.gitignore
 
 npm-debug.log
 .idea
+ 
