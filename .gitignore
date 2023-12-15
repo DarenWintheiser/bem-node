@@ -1,20 +1,11 @@
- bem-bl
-node_modules
-#blocks/i-bem/__html/
-#blocks/i-bem/__json/_async/
-#blocks/i-bem/__json/i-bem__json.priv.js
-#blocks/i-bem/i-bem.server.js
-blocks/i-promise/i-promise.js
-blocks/i-bh/i-bh.js
-tests.blocks/mocha/mocha.js
-tests.blocks/chai/chai.js
-tests.blocks/chai/__as-promised/chai__as-promised.js
+# Compiled python modules.
+*.pyc
 
-.bem/tmp
-tests/*/*
-#tests/*/*.bemdecl.js
-!pages/.gitignore
+# Setuptools distribution folder.
+/dist/
 
-npm-debug.log
-.idea
- 
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# Build folder
+/build/
